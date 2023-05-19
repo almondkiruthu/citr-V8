@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export default function Pet() {
+export default function Pet(props) {
   return (
     <>
-      
+      <h1>{props.name}</h1>
+      <h2>{props.animal}</h2>
+      <h2>{props.breed}</h2>
     </>
-  )
+  );
 }
