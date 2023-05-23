@@ -9,8 +9,8 @@ import Details from "./Details";
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: Infinty,
-      cacheTime: Infinty,
+      staleTime: Infinity,
+      cacheTime: Infinity,
     },
   },
 });
