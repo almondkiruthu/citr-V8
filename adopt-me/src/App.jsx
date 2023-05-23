@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
+import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import Pet from "./components/Pet.jsx";
 import SearchParams from "./SearchParams";
 import Deatils from "./Deatils";
