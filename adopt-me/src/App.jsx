@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pet from "./components/Pet.jsx";
 import SearchParams from "./SearchParams";
+import Deatils from "./Deatils";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <BrowserRouter>
         <h1>Adopt Me!</h1>
         <Routes>
-          <Route path="/details/:id" element={<Details />} />
+          <Route path="/details/:id" element={<Deatils />} />
           <Route path="/" element={<SearchParams />} />
         </Routes>
       </BrowserRouter>
